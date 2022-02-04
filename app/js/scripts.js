@@ -1,5 +1,5 @@
 // EXAMINING AND CHANGING THE DOCUMENT  //
-console.log("Hello from scripts.js!");
+// console.log("Hello from scripts.js!");
 // console.log(document.title);
 // document.title = 123;
 
@@ -23,17 +23,17 @@ console.log("Hello from scripts.js!");
 /* HERE'S 3 methods that WOULD work */
 /* a. */
 // listItems.forEach(function (listItem) {
-//   listItem.style.backgroundColor = "red";
+//     listItem.style.backgroundColor = "red";
 // });
 
 /* b. */
 // for (var i of listItems) {
-//   i.style.backgroundColor = "green";
+//     i.style.backgroundColor = "green";
 // }
 
 /* c. */
 // for (var i = 0; i < listItems.length; i++) {
-//   listItems[i].style.backgroundColor = "blue";
+//     listItems[i].style.backgroundColor = "blue";
 // }
 
 /* 3. EVENTLISTENERS */
@@ -42,27 +42,27 @@ console.log("Hello from scripts.js!");
 // mapLink.style.borderBottom = "solid 8px red";
 
 // mapLink.addEventListener("click", function () {
-//   console.log("It works!");
+//     console.log("It works!");
 // });
 
 /* ADD a external link to the map ANCHOR tag in the sidebar */
 
 // mapLink.addEventListener("click", function (event) {
-//   event.preventDefault();
-//   console.log("It works!");
+//     event.preventDefault();
+//     console.log("It works!");
 // });
 
-// mapLink.addEventListener("click", function() {
-//   event.preventDefault();
-//   console.log("event::", event);
-//   console.log("event.target::", event.target);
-//   console.log("event.target.href::", event.target.href);
+// mapLink.addEventListener("click", function () {
+//     event.preventDefault();
+//     console.log("event::", event);
+//     console.log("event.target::", event.target);
+//     console.log("event.target.href::", event.target.href);
 // });
 
 // document.addEventListener("click", function (e) {
-//   e.preventDefault();
-//   console.log("event.target::", e.target);
-//   console.log("event.target.textContent::", e.target.textContent);
+//     e.preventDefault();
+//     console.log("event.target::", e.target);
+//     console.log("event.target.textContent::", e.target.textContent);
 // });
 
 /* 4. FUNCTIONS */
@@ -70,9 +70,9 @@ console.log("Hello from scripts.js!");
 // mapLink.addEventListener("click", buttonClick);
 
 // function buttonClick(e) {
-//   e.preventDefault();
-//   console.log("className::", e.target.className);
-//   e.target.className = "foo";
+//     e.preventDefault();
+//     console.log("className::", e.target.className);
+//     e.target.className = "foo";
 // }
 
 /*
